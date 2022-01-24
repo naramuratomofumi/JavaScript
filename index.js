@@ -20,4 +20,8 @@ window.addEventListener('load', function(){
       pullDownParents.setAttribute("style", "display:block;")
     }
   })
+
+  // コース（リストの横のところ）の値を取得し表示する
+  pullDownChild.forEach(function(list)) {
+  }
 })
