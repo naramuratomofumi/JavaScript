@@ -10,6 +10,6 @@ window.addEventListener('load', function(){
     pullDownButton.removeAttribute("style", "background-color;#FFBEDA;")
   })
   pullDownButton.addEventListener('click', function(){
-    console.log("click OK")
+    pullDownParents.setAttribute("style", "display:block;")
   })
 })
