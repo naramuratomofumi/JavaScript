@@ -26,7 +26,7 @@ window.addEventListener('load', function(){
   pullDownChild.forEach(function(list) {
     list.addEventListener('click', function() {
       const value = list.innerHTML
-      console.log(value)
+      currentList.innerHTML = value
     })
   })
 })
