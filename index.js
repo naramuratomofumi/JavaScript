@@ -22,6 +22,9 @@ window.addEventListener('load', function(){
   })
 
   // コース（リストの横のところ）の値を取得し表示する
-  pullDownChild.forEach(function(list)) {
-  }
+  pullDownChild.forEach(function(list) {
+    list.addEventListener('click', function() {
+      console.log(list)
+    })
+  })
 })
